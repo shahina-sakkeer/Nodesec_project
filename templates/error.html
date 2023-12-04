@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'success.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="success-container">
+        <h2>Error!!!</h2>
+        <p>Sorry, the entered information is not presented in the databse</p>
+    </div>
+    <h4><a href="{% url 'userview' %}">Enter User Details</a></h4>
+</body>
+</html>
